@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Apr 27 15:44:01 2024
+# Process ID: 4656
+# Current directory: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart
+# Command line: vivado.exe -mode tcl -source ./run_core_uart.tcl
+# Log file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart/vivado.log
+# Journal file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart\vivado.jou
+# Running On: WORKSTATION, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16794 MB
+#-----------------------------------------------------------
+source ./run_core_uart.tcl
+# set name_board     zedboard
+# set name_dut       core_uart
+# set name_project   ${name_dut}
+# set name_part      xc7z020clg484-3
+# set name_language  vhdl
+# set name_top_level ${name_dut}
+# set name_bench     bch_${name_dut}
+# create_project -force -name ${name_project}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart'
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 396.258 ; gain = 45.688
+# add_files -fileset sources_1 {
+# 	        ./../../sources/package/pkg_core_uart_tx.vhd
+# 			./../../sources/package/pkg_core_uart_rx.vhd
+#         }
+# add_files -fileset sources_1 {
+#             ./../../sources/design/core_uart_tx.vhd
+# 			./../../sources/design/core_uart_rx.vhd
+# 			./../../sources/design/core_uart.vhd
+#         }
+# add_files -fileset sim_1 {
+#             ./../../sources/package/pkg_mgt_file.vhd
+# 	        ./../../sources/package/pkg_core_uart_tx.vhd
+# 			./../../sources/package/pkg_core_uart_rx.vhd
+#         }
+# add_files -fileset sim_1 {
+#             ./../../sources/design/core_uart_tx.vhd
+# 			./../../sources/design/core_uart_rx.vhd
+# 			./../../sources/design/core_uart.vhd
+#         }
+# add_files -fileset sim_1 {
+#             ./../../sources/bench/bch_core_uart.vhd
+#         }
+# set_property top ${name_bench} [get_filesets sim_1]
+# update_compile_order -fileset sources_1
+# update_compile_order -fileset sim_1
+# set_property target_language ${name_language} [current_project]
+# set_property part            ${name_part}     [current_project]
+# synth_design -directive        PerformanceOptimized \
+# 			 -fsm_extraction   one_hot              \
+# 			 -resource_sharing off                  \
+# 			 -incremental_mode aggressive           \
+# 			 -retiming                              \
+# 			 -debug_log                             \
+# 			 -verbose
+Command: synth_design -directive PerformanceOptimized -fsm_extraction one_hot -resource_sharing off -incremental_mode aggressive -retiming -debug_log -verbose
+Starting synth_design
+Using part: xc7z020clg484-3
+Top: core_uart
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Designutils 20-5008] Incremental synthesis strategy aggressive
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10420
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Applications/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 837.973 ; gain = 410.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near ':' [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:134]
+ERROR: [Synth 8-36] 's_tx_error' is not declared [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:173]
+ERROR: [Synth 8-9114] actual of formal out port 'o_error' cannot be an expression [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:173]
+ERROR: [Synth 8-36] 's_rx_data_en' is not declared [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:188]
+ERROR: [Synth 8-9114] actual of formal out port 'o_data_en' cannot be an expression [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:188]
+ERROR: [Synth 8-36] 's_tx_error' is not declared [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:202]
+ERROR: [Synth 8-36] 's_rx_data_en' is not declared [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:203]
+INFO: [Synth 8-11252] unit 'schematic' is ignored due to previous errors [C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd:209]
+INFO: [Synth 8-10443] VHDL file 'C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd' is ignored due to errors
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 921.758 ; gain = 493.785
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 0 Warnings, 0 Critical Warnings and 8 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+Vivado% 

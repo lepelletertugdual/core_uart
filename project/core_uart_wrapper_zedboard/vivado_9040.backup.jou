@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr 30 14:25:03 2024
+# Process ID: 9040
+# Current directory: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard
+# Command line: vivado.exe -mode tcl -source ./run_core_uart_wrapper_zedboard.tcl
+# Log file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/vivado.log
+# Journal file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard\vivado.jou
+# Running On: WORKSTATION, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16794 MB
+#-----------------------------------------------------------
+source ./run_core_uart_wrapper_zedboard.tcl
+launch_simulation
+source bch_core_uart_wrapper_zedboard.tcl
+update_compile_order -fileset sources_1
+current_wave_config {Untitled 1}
+add_wave {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/i_clk}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/i_rst}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/i_tx_data_en}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/i_tx_data}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_tx_ready}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_tx_done}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_tx_line}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_tx_error}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_rx_data_en}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_rx_data}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_rx_ready}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_rx_done}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/i_rx_line}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/o_rx_error}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_clk}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rst}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_tx_data_en}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_tx_data}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_tx_ready}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_tx_done}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_tx_line}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_tx_error}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rx_data_en}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rx_data}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rx_ready}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rx_done}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rx_line}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/s_rx_error}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/g_clk_i_freq}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/g_baud}} {{/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedboard/inst_core_uart/g_data_length}} 
+restart
+run all

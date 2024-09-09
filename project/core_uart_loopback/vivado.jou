@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Sep  9 10:34:45 2024
+# Process ID: 2252
+# Current directory: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_loopback
+# Command line: vivado.exe -mode tcl -source ./run_core_uart.tcl
+# Log file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_loopback/vivado.log
+# Journal file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_loopback\vivado.jou
+# Running On: WORKSTATION, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16794 MB
+#-----------------------------------------------------------
+source ./run_core_uart.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source bch_core_uart_loopback.tcl
+restart
+run all
+current_wave_config {Untitled 1}
+add_wave {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/i_clk}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/i_rst}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/o_data_en}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/o_data}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/o_ready}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/o_done}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/i_rx}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/o_error}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_clk}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_rst}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_error_ratio}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_data}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_data_en}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_data_reg}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_cnt_bit}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_rx}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_ready}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_done}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_tick}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_rx_meta}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_rx_sync}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_cnt_baud_rate}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_cnt_tick}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/s_fsm_main}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/g_clk_i_freq}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/g_baud}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/g_data_length}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/c_over_sampling}} {{/bch_core_uart_loopback/inst_core_uart/inst_core_uart_rx/c_clk_ratio}} 
+restart
