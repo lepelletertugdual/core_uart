@@ -1,0 +1,355 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Tugdual LE PELLETER\Documents\Recherche\Repositories\core_uart\project\core_uart_wrapper_zedboard
+Ebch_core_uart_wrapper_zedboard
+Z1 w1730377897
+Z2 DPx4 work 16 pkg_core_uart_rx 0 22 G0:6Q0@_lmDY^D^hZ3Q=d2
+Z3 DPx4 work 16 pkg_core_uart_tx 0 22 ;H5]VF2e=6?eQ;f]aJhY63
+Z4 DPx4 work 12 pkg_mgt_file 0 22 Oz7_U1LBY_229[NZJZOH;3
+Z5 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+Z6 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 dC:\Users\Tugdual LE PELLETER\Documents\Recherche\Repositories\core_uart\project\core_uart_wrapper_zedboard
+Z10 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd
+Z11 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd
+l0
+L121
+V_VID>oL6Rzg7?C[ESk;]82
+!s100 _;ifk>YRBH75C2c<Onl3N3
+Z12 OV;C;10.1d;51
+32
+!i10b 1
+Z13 !s108 1730377909.900000
+Z14 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd|
+Z15 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd|
+Z16 o-work work -O0
+Z17 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z18 DEx4 work 30 bch_core_uart_wrapper_zedboard 0 22 _VID>oL6Rzg7?C[ESk;]82
+l465
+L128
+Z19 VOB91c];EzlPaZ5e0AN8PF0
+Z20 !s100 SI?;@YCjRP::47c[4jl0I1
+R12
+32
+!i10b 1
+R13
+R14
+R15
+R16
+R17
+Ecore_uart
+Z21 w1714221896
+R5
+R6
+R7
+R8
+R9
+Z22 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd
+Z23 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd
+l0
+L47
+V4=6M5h;U;O]l=R2nU6KU;0
+R12
+32
+Z24 !s108 1730377909.745000
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd|
+Z26 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart.vhd|
+R16
+R17
+!s100 =5XA:UFfUeDMjW]`:BO2R0
+!i10b 1
+Aschematic
+R5
+R6
+R7
+R8
+DEx4 work 9 core_uart 0 22 4=6M5h;U;O]l=R2nU6KU;0
+l142
+L77
+V]eH8NB@D_MDFod;H:_oMc2
+R12
+32
+R24
+R25
+R26
+R16
+R17
+!s100 ;ibRT10Ne08`oWLzE6CIE1
+!i10b 1
+Ecore_uart_rx
+Z27 w1714215783
+R2
+R5
+R6
+R7
+R8
+R9
+Z28 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_rx.vhd
+Z29 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_rx.vhd
+l0
+L53
+V6Vi7WJGA9QHaCGMIoD:>12
+R12
+32
+Z30 !s108 1730377909.662000
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_rx.vhd|
+Z32 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_rx.vhd|
+R16
+R17
+!s100 G5nBCB;649KYWoQ9ON5S93
+!i10b 1
+Artl
+R2
+R5
+R6
+R7
+R8
+DEx4 work 12 core_uart_rx 0 22 6Vi7WJGA9QHaCGMIoD:>12
+l116
+L75
+VH08Td1<d5K=deeMkj=WHP0
+R12
+32
+R30
+R31
+R32
+R16
+R17
+!s100 ELLJ;5M8IHTCM2BG=olBU3
+!i10b 1
+Ecore_uart_tx
+Z33 w1713884885
+R3
+R5
+R6
+R7
+R8
+R9
+Z34 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_tx.vhd
+Z35 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_tx.vhd
+l0
+L53
+VIL96UZgLVA9@Fz>B^QZRi3
+R12
+32
+Z36 !s108 1730377909.590000
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_tx.vhd|
+Z38 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_tx.vhd|
+R16
+R17
+!s100 HLc^5<_PzAJJa[chDNoZD3
+!i10b 1
+Artl
+R3
+R5
+R6
+R7
+R8
+DEx4 work 12 core_uart_tx 0 22 IL96UZgLVA9@Fz>B^QZRi3
+l111
+L75
+V@G@nI9U0`S?];Z_BOX=`[2
+R12
+32
+R36
+R37
+R38
+R16
+R17
+!s100 <X1TzjoFA_FO[9ISTVUQf1
+!i10b 1
+Ecore_uart_wrapper_zedboard
+Z39 w1730374392
+Z40 DPx4 work 30 pkg_core_uart_wrapper_zedboard 0 22 8<C1X]bA2UlibgAM81HX53
+R7
+R8
+R9
+Z41 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_wrapper_zedboard.vhd
+Z42 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_wrapper_zedboard.vhd
+l0
+L54
+VOLPSeVznd]C<A]3JA3kcN3
+R12
+32
+Z43 !s108 1730377909.825000
+Z44 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_wrapper_zedboard.vhd|
+Z45 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/design/core_uart_wrapper_zedboard.vhd|
+R16
+R17
+!s100 J2WJ_ZaKl@dU8JQc[dUl=1
+!i10b 1
+Aschematic
+R40
+R7
+R8
+DEx4 work 26 core_uart_wrapper_zedboard 0 22 OLPSeVznd]C<A]3JA3kcN3
+l146
+L85
+VlV9POmN:U6fj[5`_d9[`T2
+!s100 WabBPKK0I7D4SZVo=AVXG3
+R12
+32
+R43
+R44
+R45
+R16
+R17
+!i10b 1
+Ppkg_core_uart_rx
+R7
+R8
+Z46 w1714052230
+R9
+Z47 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_rx.vhd
+Z48 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_rx.vhd
+l0
+L44
+VG0:6Q0@_lmDY^D^hZ3Q=d2
+R12
+32
+Z49 !s108 1730377909.315000
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_rx.vhd|
+Z51 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_rx.vhd|
+R16
+R17
+!s100 ho0XBPk5RLLEJ3W2Kd8YT1
+!i10b 1
+Bbody
+R2
+R7
+R8
+l0
+L58
+Vb3S58kD5XIg>Y@LBXbDCA2
+R12
+32
+R49
+R50
+R51
+R16
+R17
+nbody
+!s100 ]DiQ7Y2dCJ<AO2[;O?oKO1
+!i10b 1
+Ppkg_core_uart_tx
+R7
+R8
+Z52 w1713883729
+R9
+Z53 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_tx.vhd
+Z54 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_tx.vhd
+l0
+L44
+V;H5]VF2e=6?eQ;f]aJhY63
+R12
+32
+Z55 !s108 1730377909.225000
+Z56 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_tx.vhd|
+Z57 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_tx.vhd|
+R16
+R17
+!s100 X@kmOz`3@:UGXYX8mNIQ]2
+!i10b 1
+Bbody
+R3
+R7
+R8
+l0
+L58
+VhiPikT;@SaTGi@8DBL6:30
+R12
+32
+R55
+R56
+R57
+R16
+R17
+nbody
+!s100 S^0WdAJSPcZc;gBOgCkQ81
+!i10b 1
+Ppkg_core_uart_wrapper_zedboard
+R7
+R8
+Z58 w1730374355
+R9
+Z59 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_wrapper_zedboard.vhd
+Z60 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_wrapper_zedboard.vhd
+l0
+L38
+V8<C1X]bA2UlibgAM81HX53
+R12
+32
+Z61 !s108 1730377909.420000
+Z62 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_wrapper_zedboard.vhd|
+Z63 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_core_uart_wrapper_zedboard.vhd|
+R16
+R17
+!s100 TPJ`zdz9=mkX7I8DEMGFG1
+!i10b 1
+Bbody
+R40
+R7
+R8
+l0
+L62
+V]zMfjlNLU;d54Rb=f<EE@2
+R12
+32
+R61
+R62
+R63
+R16
+R17
+nbody
+!s100 B<^U2kTTHTzSd98Z>8jEo3
+!i10b 1
+Ppkg_mgt_file
+R6
+R7
+R8
+Z64 w1699684619
+R9
+Z65 8C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_mgt_file.vhd
+Z66 FC:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_mgt_file.vhd
+l0
+L59
+VOz7_U1LBY_229[NZJZOH;3
+R12
+32
+b1
+Z67 !s108 1730377909.510000
+Z68 !s90 -reportprogress|300|-work|work|C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_mgt_file.vhd|
+Z69 !s107 C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/package/pkg_mgt_file.vhd|
+R16
+R17
+!s100 HAYLJL?D7MO=d1SWWWRd51
+!i10b 1
+Bbody
+R4
+R6
+R7
+R8
+l0
+L108
+VbcVUPEdAFV4gG10@Q<1Kb0
+R12
+32
+R67
+R68
+R69
+R16
+R17
+nbody
+!s100 jUJPWon];;do_^KTOf;[M3
+!i10b 1

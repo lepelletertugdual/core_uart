@@ -48,10 +48,8 @@ package pkg_core_uart_wrapper_zedboard is
 	    constant c_osc_freq     : integer := 100_000_000;
 	
 	    -- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		-- 02.01.02. DUT : gen_heartbeat_wrapper_zedboard
+		-- 02.01.02. DUT : core_uart_wrapper_zedboard
 	    -- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	    constant c_mmcm_freq       : integer := 100_000_000;
-	    constant c_heartbeat_freq  : integer :=           1;
 		constant c_dut_baud        : integer :=     115_200;
 		constant c_dut_data_length : integer :=           8;
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1714481053">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1730377989">
   <File Type="PA-TCL" Name="core_uart_wrapper_zedboard.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="core_uart_wrapper_zedboard_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="core_uart_wrapper_zedboard_reports.tcl"/>
@@ -11,13 +11,6 @@
   <File Type="VDS-TIMING-PB" Name="core_uart_wrapper_zedboard_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../../sources/ip/ip_mmcm/ip_mmcm.xci">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/../../sources/design/core_uart.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -49,18 +42,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../sources/package/pkg_core_uart_wrapper_zedboard.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../sources/package/pkg_gen_heartbeat.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../sources/design/gen_heartbeat.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

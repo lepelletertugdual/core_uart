@@ -1,0 +1,188 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_fsm_main_state
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_fsm_init_state
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_fsm_test_state
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_fsm_file_mgt_log
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_fsm_file_mgt_rpt
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_req_log_open
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_ack_log_open
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_req_log_close
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_ack_log_close
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_req_rpt_open
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_ack_rpt_open
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_req_rpt_close
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_file_ack_rpt_close
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_clk
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_osc
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_clk
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_rst
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_done
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_init_req
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_init_ack
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_test_req
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_test_ack
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_test_status
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_sim_cnt
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_error
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_array_data_cnt
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_error_test
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_i_clk
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_i_rst
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en_reg
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en_reg_gen_tmp
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en_reg_gen
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_tx_o_line
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_rx_o_data
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_dut_uart_rx_i_line
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_i_clk
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_i_rst
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en_reg
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en_reg_gen_tmp
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en_reg_gen
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_ready
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_done
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_line
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_error
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_data_en
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_data
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_ready
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_done
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_done_r
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_done_re
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_i_line
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_error
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_clk_freq
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_clk_delay
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_rst_delay
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_clk_period_ns
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_clk_period
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_osc_delay
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_osc_freq
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_osc_period_ns
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_dut_rst_delay
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_dut_clk_freq
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_dut_clk_period
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_dut_baud
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_dut_data_length
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_array_data_length
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_array_data
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_clk_freq
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_clk_delay
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_rst_delay
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_clk_period_ns
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_clk_period
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_baud
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_hst_data_length
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_ratio_clk_sim_clk_dut
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_ratio_clk_sim_clk_hst
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_file_log_name
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_file_rpt_name
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_bit_duration
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_duration_factor
+add wave -noupdate -group bch_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/c_sim_duration_ns
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/OSC_100M
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/BTN9
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/BTN8
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW0
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW1
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW2
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW3
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW4
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW5
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW6
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/SW7
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD0
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD1
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD2
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD3
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD4
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD5
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD6
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/LD7
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/UART_TX
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/UART_RX
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_i_tx_data_en
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_i_tx_data
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_tx_ready
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_tx_done
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_tx_line
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_tx_error
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_rx_data_en
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_rx_data
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_rx_ready
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_rx_done
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_i_rx_line
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_dut_o_rx_error
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_error_rx
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_error_tx
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_clk
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_rst
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_tx_data_en
+add wave -noupdate -group inst_core_uart_wrapper_zedboard /bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/s_tx_data_en_r
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/i_clk
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/i_rst
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/i_data_en
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/i_data
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/o_ready
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/o_done
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/o_tx
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/o_error
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_clk
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_rst
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_error_ratio
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_data
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_data_en
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_data_reg
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_cnt_clk
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_cnt_bit
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_tx
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_ready
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_done
+add wave -noupdate -expand -group inst_hst_core_uart_tx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_tx/s_fsm_main
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/i_clk
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/i_rst
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/o_data_en
+add wave -noupdate -group inst_hst_core_uart_rx -radix hexadecimal /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/o_data
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/o_ready
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/o_done
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/i_rx
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/o_error
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_clk
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_rst
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_error_ratio
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_data
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_data_en
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_data_reg
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_cnt_bit
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_rx
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_ready
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_done
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_tick
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_rx_meta
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_rx_sync
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_cnt_baud_rate
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_cnt_tick
+add wave -noupdate -group inst_hst_core_uart_rx /bch_core_uart_wrapper_zedboard/inst_hst_core_uart/inst_core_uart_rx/s_fsm_main
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 2} {75729425 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 246
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 1
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits us
+update
+WaveRestoreZoom {0 ps} {585984 ns}

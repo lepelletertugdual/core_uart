@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../sources/package/pkg_mgt_file.vhd" \
+"../../../../../../sources/package/pkg_core_uart_tx.vhd" \
+"../../../../../../sources/design/core_uart.vhd" \
+"../../../../../../sources/package/pkg_core_uart_rx.vhd" \
+"../../../../../../sources/design/core_uart_rx.vhd" \
+"../../../../../../sources/design/core_uart_tx.vhd" \
+"../../../../../../sources/bench/bch_core_uart.vhd" \
+
+# Do not sort compile order
+nosort

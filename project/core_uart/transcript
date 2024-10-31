@@ -1,0 +1,96 @@
+# do run_modelsim.tcl 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_core_uart_tx
+# -- Compiling package body pkg_core_uart_tx
+# -- Loading package pkg_core_uart_tx
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_core_uart_rx
+# -- Compiling package body pkg_core_uart_rx
+# -- Loading package pkg_core_uart_rx
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pkg_mgt_file
+# -- Compiling package body pkg_mgt_file
+# -- Loading package pkg_mgt_file
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package pkg_core_uart_tx
+# -- Compiling entity core_uart_tx
+# -- Compiling architecture rtl of core_uart_tx
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package pkg_core_uart_rx
+# -- Compiling entity core_uart_rx
+# -- Compiling architecture rtl of core_uart_rx
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity core_uart
+# -- Compiling architecture schematic of core_uart
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package pkg_mgt_file
+# -- Loading package pkg_core_uart_tx
+# -- Compiling entity bch_core_uart
+# -- Compiling architecture behavioral of bch_core_uart
+# vsim -voptargs=+acc work.bch_core_uart 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.pkg_mgt_file(body)
+# Loading work.pkg_core_uart_tx(body)
+# Loading work.bch_core_uart(behavioral)
+# Loading work.core_uart(schematic)
+# Loading work.core_uart_tx(rtl)
+# Loading work.pkg_core_uart_rx(body)
+# Loading work.core_uart_rx(rtl)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Tugdual LE PELLETER  Hostname: WORKSTATION  ProcessID: 5204
+# 
+#           Attempting to use alternate WLF file "./wlftaybf4i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftaybf4i
+# 
+# ** Note: rpt_bch_core_uart_wrapper_zedboard_sim.txt proc_file_rpt_open success
+#    Time: 2501 ns  Iteration: 1  Instance: /bch_core_uart
+# ** Note: log_bch_core_uart_wrapper_zedboard_sim.csv proc_file_log_open success
+#    Time: 2503 ns  Iteration: 1  Instance: /bch_core_uart
+# ** Note: log_bch_core_uart_wrapper_zedboard_sim.csv proc_file_log_close success
+#    Time: 370246 ns  Iteration: 1  Instance: /bch_core_uart
+# ** Note: rpt_bch_core_uart_wrapper_zedboard_sim.txt proc_file_rpt_close success
+#    Time: 370249 ns  Iteration: 1  Instance: /bch_core_uart
+# ** Failure: end of simulation - success
+#    Time: 370251 ns  Iteration: 1  Process: /bch_core_uart/p_sim_end File: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart.vhd
+# Break in Process p_sim_end at C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart.vhd line 1009
+# Simulation Breakpoint: Break in Process p_sim_end at C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart.vhd line 1009
+# MACRO ./run_modelsim.tcl PAUSED at line 54

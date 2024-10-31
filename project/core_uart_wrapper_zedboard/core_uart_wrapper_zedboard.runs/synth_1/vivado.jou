@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Tue Apr 30 14:44:16 2024
-# Process ID: 5644
+# Start of session at: Thu Oct 31 13:33:12 2024
+# Process ID: 2588
 # Current directory: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/core_uart_wrapper_zedboard.runs/synth_1
 # Command line: vivado.exe -log core_uart_wrapper_zedboard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source core_uart_wrapper_zedboard.tcl
 # Log file: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/core_uart_wrapper_zedboard.runs/synth_1/core_uart_wrapper_zedboard.vds

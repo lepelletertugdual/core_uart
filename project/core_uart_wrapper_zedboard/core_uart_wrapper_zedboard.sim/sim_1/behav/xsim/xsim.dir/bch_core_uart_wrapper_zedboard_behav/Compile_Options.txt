@@ -1,1 +1,0 @@
---incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "bch_core_uart_wrapper_zedboard_behav" "xil_defaultlib.bch_core_uart_wrapper_zedboard" "xil_defaultlib.glbl" -log "elaborate.log" 

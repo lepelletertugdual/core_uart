@@ -128,8 +128,7 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 1
-  set_param synth.incremental.totalBlackboxInstancesCount 1
-  set_param synth.incrementalSynthesisCache {C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/.Xil/Vivado-7380-WORKSTATION/incrSyn}
+  set_param synth.incrementalSynthesisCache {C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/.Xil/Vivado-13216-WORKSTATION/incrSyn}
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z020clg484-3
   set_property design_mode GateLvl [current_fileset]
@@ -140,11 +139,9 @@ OPTRACE "set parameters" START { }
   set_property parent.project_path {C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/core_uart_wrapper_zedboard.xpr} [current_project]
   set_property ip_output_repo {{C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/core_uart_wrapper_zedboard.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet {{C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/core_uart_wrapper_zedboard.runs/synth_1/core_uart_wrapper_zedboard.dcp}}
-  read_ip -quiet {{C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/ip/ip_mmcm/ip_mmcm.xci}}
 OPTRACE "read constraints: implementation" START { }
   read_xdc {{C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/constraints/pinout_zedboard.xdc}}
 OPTRACE "read constraints: implementation" END { }
@@ -311,7 +308,6 @@ set rc [catch {
   create_msg_db write_bitstream.pb
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
   catch { write_mem_info -force -no_partial_mmi core_uart_wrapper_zedboard.mmi }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }
