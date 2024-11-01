@@ -165,8 +165,8 @@ architecture behavioral of bch_core_uart_wrapper_zedboard is
         component core_uart_wrapper_zedboard is
             port (
         	     OSC_100M : in  std_logic
-        		;BTN9     : in  std_logic -- pin C10 : s_rst
-        		;BTN8     : in  std_logic -- pin D13 : s_dut_tx_data_en
+        		;BTNC     : in  std_logic -- pin P16 : s_rst
+        		;BTNU     : in  std_logic -- pin R16 : s_dut_tx_data_en
         		;SW0      : in  std_logic -- pin F22 : s_dut_tx_data[0]
         		;SW1      : in  std_logic -- pin G22 : s_dut_tx_data[1]
         		;SW2      : in  std_logic -- pin H22 : s_dut_tx_data[2]
@@ -183,8 +183,8 @@ architecture behavioral of bch_core_uart_wrapper_zedboard is
         		;LD5      : out std_logic -- pin W22 : s_dut_rx_data[5]
         		;LD6      : out std_logic -- pin U19 : s_dut_rx_data[6]
         		;LD7      : out std_logic -- pin U14 : s_dut_rx_data[7]
-        		;UART_TX  : out std_logic -- pin D11 : s_dut_tx_line
-        		;UART_RX  : in  std_logic -- pin C14 : s_dut_rx_line
+        		;UART_TX  : out std_logic -- pin AA9 : s_dut_tx_line
+        		;UART_RX  : in  std_logic -- pin Y10 : s_dut_rx_line
         
         	);
         end component core_uart_wrapper_zedboard;
@@ -577,8 +577,8 @@ begin
         inst_core_uart_wrapper_zedbord : core_uart_wrapper_zedboard
             port map (
         	     OSC_100M => s_dut_i_clk                     -- pin  Y9 : s_clk
-        		,BTN9     => s_dut_i_rst                     -- pin C10 : s_rst
-        		,BTN8     => s_dut_uart_tx_i_data_en_reg_gen -- pin D13 : s_dut_tx_data_en
+        		,BTNC     => s_dut_i_rst                     -- pin P16 : s_rst
+        		,BTNU     => s_dut_uart_tx_i_data_en_reg_gen -- pin T18 : s_dut_tx_data_en
         		,SW0      => s_dut_uart_tx_i_data(0)         -- pin F22 : s_dut_tx_data[0]
         		,SW1      => s_dut_uart_tx_i_data(1)         -- pin G22 : s_dut_tx_data[1]
         		,SW2      => s_dut_uart_tx_i_data(2)         -- pin H22 : s_dut_tx_data[2]
@@ -595,8 +595,8 @@ begin
         		,LD5      => s_dut_uart_rx_o_data(5)         -- pin W22 : s_dut_rx_data[5]
         		,LD6      => s_dut_uart_rx_o_data(6)         -- pin U19 : s_dut_rx_data[6]
         		,LD7      => s_dut_uart_rx_o_data(7)         -- pin U14 : s_dut_rx_data[7]
-        		,UART_TX  => s_dut_uart_tx_o_line            -- pin D11 : s_dut_tx_line
-        		,UART_RX  => s_dut_uart_rx_i_line            -- pin C14 : s_dut_rx_line
+        		,UART_TX  => s_dut_uart_tx_o_line            -- pin AA9 : s_dut_tx_line
+        		,UART_RX  => s_dut_uart_rx_i_line            -- pin Y10 : s_dut_rx_line
         	);
 
     -- =============================================================================================================================================================================

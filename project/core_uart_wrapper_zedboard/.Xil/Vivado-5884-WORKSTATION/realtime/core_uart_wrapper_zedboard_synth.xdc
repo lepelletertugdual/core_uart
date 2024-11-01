@@ -1,0 +1,1 @@
+set_property SRC_FILE_INFO {cfile:{C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/constraints/pinout_zedboard.xdc} rfile:../../../../../constraints/pinout_zedboard.xdc id:1} [current_design]

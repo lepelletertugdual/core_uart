@@ -27,8 +27,8 @@ set_property -dict { PACKAGE_PIN Y9 IOSTANDARD LVCMOS33 } [get_ports { OSC_100M 
 ## ######################################################################################################################################################################################################
 ## 02. KEY
 ## ######################################################################################################################################################################################################
-set_property -dict { PACKAGE_PIN C10 IOSTANDARD LVCMOS33 } [get_ports { BTN9 }];
-set_property -dict { PACKAGE_PIN D13 IOSTANDARD LVCMOS33 } [get_ports { BTN8 }];
+set_property -dict { PACKAGE_PIN P16 IOSTANDARD LVCMOS18 } [get_ports { BTNC }]; -- Bank 34
+set_property -dict { PACKAGE_PIN T18 IOSTANDARD LVCMOS18 } [get_ports { BTNU }]; -- Bank 34
 
 ## ######################################################################################################################################################################################################
 ## 03. LED
@@ -43,10 +43,23 @@ set_property -dict { PACKAGE_PIN U19 IOSTANDARD LVCMOS33 } [get_ports { LD6 }];
 set_property -dict { PACKAGE_PIN U14 IOSTANDARD LVCMOS33 } [get_ports { LD7 }];
 
 ## ######################################################################################################################################################################################################
-## 04. UART
+## 04. SWITCHES
 ## ######################################################################################################################################################################################################
-set_property -dict { PACKAGE_PIN D11 IOSTANDARD LVCMOS33 } [get_ports { UART_RX }];
-set_property -dict { PACKAGE_PIN C14 IOSTANDARD LVCMOS33 } [get_ports { UART_TX }];
+
+set_property -dict { PACKAGE_PIN F22 IOSTANDARD LVCMOS33 } [get_ports {SW0}];
+set_property -dict { PACKAGE_PIN G22 IOSTANDARD LVCMOS33 } [get_ports {SW1}];
+set_property -dict { PACKAGE_PIN H22 IOSTANDARD LVCMOS33 } [get_ports {SW2}];
+set_property -dict { PACKAGE_PIN F21 IOSTANDARD LVCMOS33 } [get_ports {SW3}];
+set_property -dict { PACKAGE_PIN H19 IOSTANDARD LVCMOS33 } [get_ports {SW4}];
+set_property -dict { PACKAGE_PIN H18 IOSTANDARD LVCMOS33 } [get_ports {SW5}];
+set_property -dict { PACKAGE_PIN H17 IOSTANDARD LVCMOS33 } [get_ports {SW6}];
+set_property -dict { PACKAGE_PIN M15 IOSTANDARD LVCMOS18 } [get_ports {SW7}]; -- Bank 34
+
+## ######################################################################################################################################################################################################
+## 05. UART
+## ######################################################################################################################################################################################################
+set_property -dict { PACKAGE_PIN Y10 IOSTANDARD LVCMOS33 } [get_ports { UART_RX }];
+set_property -dict { PACKAGE_PIN AA9 IOSTANDARD LVCMOS33 } [get_ports { UART_TX }];
 
 ## ######################################################################################################################################################################################################
 ## EOF

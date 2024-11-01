@@ -71,7 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache {C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/.Xil/Vivado-13216-WORKSTATION/incrSyn}
+set_param synth.incrementalSynthesisCache {C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/.Xil/Vivado-5884-WORKSTATION/incrSyn}
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 set_msg_config -id {Synth 8-256} -limit 10000

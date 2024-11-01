@@ -93,11 +93,15 @@
 # 
 #           File in use by: Tugdual LE PELLETER  Hostname: WORKSTATION  ProcessID: 14132
 # 
-#           Attempting to use alternate WLF file "./wlftt1r2vf".
+#           Attempting to use alternate WLF file "./wlft7eq0z3".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftt1r2vf
+#           Using alternate file: ./wlft7eq0z3
 # 
+# ** Error: (vish-4014) No objects found matching '/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/BTN9'.
+# Executing ONERROR command at macro ./wave.do line 89
+# ** Error: (vish-4014) No objects found matching '/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/BTN8'.
+# Executing ONERROR command at macro ./wave.do line 90
 # ** Note: rpt_bch_core_uart_wrapper_zedboard_sim.txt proc_file_rpt_open success
 #    Time: 2501 ns  Iteration: 1  Instance: /bch_core_uart_wrapper_zedboard
 # ** Note: log_bch_core_uart_wrapper_zedboard_sim.csv proc_file_log_open success
@@ -111,4 +115,107 @@
 # Break in Process p_sim_end at C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd line 996
 # Simulation Breakpoint: Break in Process p_sim_end at C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd line 996
 # MACRO ./run_modelsim.tcl PAUSED at line 56
+add wave -position insertpoint  \
+sim:/bch_core_uart_wrapper_zedboard/s_fsm_main_state \
+sim:/bch_core_uart_wrapper_zedboard/s_fsm_init_state \
+sim:/bch_core_uart_wrapper_zedboard/s_fsm_test_state \
+sim:/bch_core_uart_wrapper_zedboard/s_fsm_file_mgt_log \
+sim:/bch_core_uart_wrapper_zedboard/s_fsm_file_mgt_rpt \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_req_log_open \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_ack_log_open \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_req_log_close \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_ack_log_close \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_req_rpt_open \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_ack_rpt_open \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_req_rpt_close \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_file_ack_rpt_close \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_clk \
+sim:/bch_core_uart_wrapper_zedboard/s_osc \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_clk \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_rst \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_done \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_init_req \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_init_ack \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_test_req \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_test_ack \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_test_status \
+sim:/bch_core_uart_wrapper_zedboard/s_sim_cnt \
+sim:/bch_core_uart_wrapper_zedboard/s_error \
+sim:/bch_core_uart_wrapper_zedboard/s_array_data_cnt \
+sim:/bch_core_uart_wrapper_zedboard/s_error_test \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_i_clk \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_i_rst \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en_reg \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en_reg_gen_tmp \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data_en_reg_gen \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_tx_i_data \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_tx_o_line \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_rx_o_data \
+sim:/bch_core_uart_wrapper_zedboard/s_dut_uart_rx_i_line \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_i_clk \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_i_rst \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en_reg \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en_reg_gen_tmp \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data_en_reg_gen \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_i_data \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_ready \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_done \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_line \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_tx_o_error \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_data_en \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_data \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_ready \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_done \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_done_r \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_done_re \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_i_line \
+sim:/bch_core_uart_wrapper_zedboard/s_hst_uart_rx_o_error \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_clk_freq \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_clk_delay \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_rst_delay \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_clk_period_ns \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_clk_period \
+sim:/bch_core_uart_wrapper_zedboard/c_osc_delay \
+sim:/bch_core_uart_wrapper_zedboard/c_osc_freq \
+sim:/bch_core_uart_wrapper_zedboard/c_osc_period_ns \
+sim:/bch_core_uart_wrapper_zedboard/c_dut_rst_delay \
+sim:/bch_core_uart_wrapper_zedboard/c_dut_clk_freq \
+sim:/bch_core_uart_wrapper_zedboard/c_dut_clk_period \
+sim:/bch_core_uart_wrapper_zedboard/c_dut_baud \
+sim:/bch_core_uart_wrapper_zedboard/c_dut_data_length \
+sim:/bch_core_uart_wrapper_zedboard/c_array_data_length \
+sim:/bch_core_uart_wrapper_zedboard/c_array_data \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_clk_freq \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_clk_delay \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_rst_delay \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_clk_period_ns \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_clk_period \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_baud \
+sim:/bch_core_uart_wrapper_zedboard/c_hst_data_length \
+sim:/bch_core_uart_wrapper_zedboard/c_ratio_clk_sim_clk_dut \
+sim:/bch_core_uart_wrapper_zedboard/c_ratio_clk_sim_clk_hst \
+sim:/bch_core_uart_wrapper_zedboard/c_file_log_name \
+sim:/bch_core_uart_wrapper_zedboard/c_file_rpt_name \
+sim:/bch_core_uart_wrapper_zedboard/c_bit_duration \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_duration_factor \
+sim:/bch_core_uart_wrapper_zedboard/c_sim_duration_ns
+add wave -position insertpoint sim:/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/*
+add wave -position insertpoint sim:/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/inst_core_uart/*
+add wave -position insertpoint sim:/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/inst_core_uart/inst_core_uart_tx/*
+add wave -position insertpoint sim:/bch_core_uart_wrapper_zedboard/inst_core_uart_wrapper_zedbord/inst_core_uart/inst_core_uart_rx/*
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/project/core_uart_wrapper_zedboard/wave.do}
+restart
+run -all
+# ** Note: rpt_bch_core_uart_wrapper_zedboard_sim.txt proc_file_rpt_open success
+#    Time: 2501 ns  Iteration: 1  Instance: /bch_core_uart_wrapper_zedboard
+# ** Note: log_bch_core_uart_wrapper_zedboard_sim.csv proc_file_log_open success
+#    Time: 2503 ns  Iteration: 1  Instance: /bch_core_uart_wrapper_zedboard
+# ** Note: log_bch_core_uart_wrapper_zedboard_sim.csv proc_file_log_close success
+#    Time: 558075 ns  Iteration: 1  Instance: /bch_core_uart_wrapper_zedboard
+# ** Note: rpt_bch_core_uart_wrapper_zedboard_sim.txt proc_file_rpt_close success
+#    Time: 558078 ns  Iteration: 1  Instance: /bch_core_uart_wrapper_zedboard
+# ** Failure: end of simulation - success
+#    Time: 558080 ns  Iteration: 1  Process: /bch_core_uart_wrapper_zedboard/p_sim_end File: C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd
+# Break in Process p_sim_end at C:/Users/Tugdual LE PELLETER/Documents/Recherche/Repositories/core_uart/sources/bench/bch_core_uart_wrapper_zedboard.vhd line 996

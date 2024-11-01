@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1730377989">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1730458803">
   <File Type="PA-TCL" Name="core_uart_wrapper_zedboard.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="core_uart_wrapper_zedboard_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="core_uart_wrapper_zedboard_reports.tcl"/>
